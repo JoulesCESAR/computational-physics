@@ -6,14 +6,11 @@ using namespace std;
 int main()
 {
     double epsilon = 1.0;
-    while ( 1.0 + 0.5*epsilon )
+    while ( 1.0 + 0.5*epsilon != 1.0)
     {
     	epsilon = 0.5*epsilon;
-    	cout << epsilon <<endl;
-        if (epsilon == 0.0) {
-            break;
-        }
     }
+    cout << epsilon <<endl;
 return 0;
 
 }
